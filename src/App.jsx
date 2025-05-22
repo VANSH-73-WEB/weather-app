@@ -18,6 +18,9 @@ function App() {
    <button onClick={()=>{
     setValue(value-1)
    }}>subtract</button>
+   <button onClick={()=>{
+    setValue(0);
+   }}>reset</button>
     </>
     )
 }
