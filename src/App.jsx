@@ -11,10 +11,10 @@ function App() {
     <>
    <h1>Count {value}</h1>
    <button onClick={()=>{
-    setValue(value+1);
+    setValue(value+3);
    }
 
-   }>add</button>
+   }>add+3</button>
     </>
     )
 }
